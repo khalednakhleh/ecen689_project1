@@ -11,46 +11,63 @@ file taken from:
 
 import pandas as pd
 
-
 health = pd.read_csv("health_data.csv")
 income = pd.read_csv("income_data.csv")
 
 
-
-
+print("Initial dimensions for health and income datasets: \n")
 print(health.shape)
+print(income.shape)
 
+
+print("\n\n\n--------------------------------")
+print("after parsing dimensions for health and income datasets: \n")
 
 income_adjust = income.drop(income[income.COUNTYFIPS == 0].index)
+income_adjust = income_adjust.drop(income_adjust[income_adjust.COUNTYNAME == "Kusilvak"].index)
+income_adjust = income_adjust.drop(income_adjust[income_adjust.COUNTYNAME == "Oglala Lakota County"].index)
 
 print(income_adjust.shape)
 
+health_adjust = health.drop(health[health.County == "Wade Hampton"].index)
+health_adjust = health_adjust.drop(health_adjust[health_adjust.County == "Kalawao"].index)
+health_adjust = health_adjust[~((health_adjust["County"] == "Shannon") & (health_adjust["State"] == "SD"))]
+health_adjust = health_adjust[~((health_adjust["County"] == "Bedford") & (health_adjust["State"] == "VA")& (health_adjust["PCT_DIABETES_ADULTS08"] == 12.6))]
+
+health_adjust.index += 1
+print(health_adjust.shape)
+
+###################################################
+
 income_adjust.to_csv("‎income_adjusted.csv")
-
-name = []
-
-q = 0
-
-while q < health.shape[0]:
-    
-    value = 0
-    i = 0  
-    
-    while i < income_adjust.shape[0]:
-            
-        if health.iloc[q, 2] or health.iloc[q, 2] + " County" == income_adjust.iloc[i, 3]:
-            value = 1
-            
-        i = i + 1
-        
-    if value == 0:
-        name.append(health.iloc[q, 2])
-     
-    q = q + 1
-    
-print(name)
+health_adjust.to_csv("‎health_adjusted.csv")
  
- 
+###################################################
+
+
+# Combining the parsed health and income files into one file
+
+
+combined = pd.concat([health_adjust, income_adjust], axis = 1)
+combined.to_csv("combined.csv")
+
+print(combined.shape)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
