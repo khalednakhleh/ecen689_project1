@@ -10,42 +10,49 @@ file taken from:
 """
 
 import pandas as pd
-import numpy as np
+
 
 health = pd.read_csv("health_data.csv")
-income = pd.read_csv("good_income_data.csv")
-combined = pd.read_csv("health_income_data.csv")
+income = pd.read_csv("income_data.csv")
 
-print(income.head())
 
-print(income.iloc[1, 3])
-print(health.iloc[0, 2])
+
 
 print(health.shape)
-print(income.shape)
 
 
-print(np.count_nonzero(income.iloc[:, 2] == 0))
-"""
-if health.iloc[0, 2] + " County" == income.iloc[1, 3]:
-    combined.iloc[]
+income_adjust = income.drop(income[income.COUNTYFIPS == 0].index)
 
+print(income_adjust.shape)
 
+income_adjust.to_csv("‎income_adjusted.csv")
+
+name = []
 
 q = 0
 
 while q < health.shape[0]:
     
-    i = 0
+    value = 0
+    i = 0  
     
-    while i < income.shape[0]:
-        
-        if health.iloc[q, 2] + " County" == income.iloc[i, 3]:
-            combined.iloc
-        
+    while i < income_adjust.shape[0]:
+            
+        if health.iloc[q, 2] or health.iloc[q, 2] + " County" == income_adjust.iloc[i, 3]:
+            value = 1
+            
         i = i + 1
         
- 
+    if value == 0:
+        name.append(health.iloc[q, 2])
+     
     q = q + 1
     
-"""   
+print(name)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
