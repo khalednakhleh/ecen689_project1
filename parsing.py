@@ -5,7 +5,7 @@ Created on Sat Oct 20 17:50:28 2018
 
 Name: khalednakhleh
 
-file taken from:
+income file taken from:
     https://www.irs.gov/statistics/soi-tax-stats-county-data-2016
 """
 
@@ -31,7 +31,7 @@ health_adjust = health_adjust[~((health_adjust["County"] == "Shannon") & (health
 health_adjust = health_adjust[~((health_adjust["County"] == "Bedford") & (health_adjust["State"] == "VA")& (health_adjust["PCT_DIABETES_ADULTS08"] == 12.6))]
 
 
-new_index = np.arange(3139)
+new_index = np.arange(health_adjust.shape[0])
 income_adjust.index = new_index
 health_adjust.index = new_index
 
@@ -54,16 +54,6 @@ combined.to_csv("combined.csv", index = "Id")
 
 print("\nParsed file dimensions: \n")
 print(combined.shape)
-
-
-
-
-
-
-
-
-
-
 
 
 
