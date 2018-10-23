@@ -22,8 +22,17 @@ print(income.shape)
 
 ###################################################
 income_adjust = income[~((income["COUNTYFIPS"] == 0))]
-income_adjust.columns = income.columns
+new_header_1 = income_adjust.iloc[0, :]
+income_adjust = income_adjust[1:]
+
+income_adjust.columns = new_header_1
+print(income_adjust.columns)
 health_adjust = health[~((health["County"] == "Kalawao"))]
+
+new_header_2 = health_adjust.iloc[0, :]
+health_adjust = health_adjust[1:]
+
+health_adjust.columns = new_header_2
 
 new_index = np.arange(health_adjust.shape[0])
 income_adjust.index = new_index
@@ -46,8 +55,11 @@ health_adjust.to_csv("‎health_adjusted.csv")
 # Combining the parsed health and income files into one file
 
 combined = pd.concat([health_adjust, income_adjust], axis = 1)
+
+
 combined.to_csv("combined_2013.csv", index = "Id")
 
+print(combined.head())
 print("\nParsed file dimensions: \n")
 print(combined.shape)
 
