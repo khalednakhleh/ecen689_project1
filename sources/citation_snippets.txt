@@ -1,0 +1,77 @@
+citation snippets:
+
+
+1) Income Inequality and Health: Pathways and Mechanisms
+
+"The relationship between income and health is well established:
+the higher an individual's income, the better his or her health."
+
+"The United States currently leads the industrialized world in terms of the extent of
+income inequality, and the gap is growing."
+
+"At least three plausible mechanisms have been suggested(Kawachi et al.1994;Lynch and Kaplan 197):
+(a)that income inequality is linked to disinvestment in human capital; (b)that income inequality leads to the erosion of social capital;
+(c)income inequality leads directly to ill health via stressful social comparisons. Evidence exists to support each of these pathways."
+
+"emerging evidence suggests that policymakers should pay attention to broader economic forces in order to improve the nation's health. The policy levers to reduce income inequality already exist, such as raising the minimum wage, increasing child care credits, and expanding the earned income tax credit (EITC)."
+
+2) High income improves evaluation of life but not emotional well-being
+
+"Life evaluation refers to the thoughts that people have about their life when they think about it."
+
+"Income and education are more closely related to life evaluation, but health, care giving, loneliness, and smoking are relatively stronger predictors of daily emotions."
+
+"Emotional well-being also rises with log income, but there is no further progress beyond an annual income of ∼$75,000."
+
+
+"High income buys life satisfaction but not happiness, and that low income is associated both with low life evaluation and low emotional well-being."
+
+
+
+3) INCOME INEQUALITY AND HEALTH: What Does the Literature Tell Us?
+
+"It seems to us that one cannot, for example, despite what has been written and despite the sheer volume of them, conclude very much about the effects of income inequality on individual health from population-level studies"
+
+"What seems to be required to discriminate between the various hypotheses are individual-level studies, because it is only at this level of aggregation that one can observe relationships that are consistent with one hypothesis and not with another."
+
+"A large number of studies have been undertaken that, by their very nature, appear to be incapable of shedding any light on the effects of relative income and income inequality on individual health."
+
+
+
+4) On the Evolution of Income Inequality in the United States
+
+"This article documents an increase in income inequality in the United States in recent decades. Furthermore, the article documents periods characterized by a decline in real income for lower income groups."
+
+"Finally, we show that the recent period of increasing inequality followed a period of decreasing inequality since World War I, which in turn followed a period of increasing inequality in the 19th century."
+
+
+
+5)The Influence Of Income On Health: Views Of An Epidemiologist
+
+"Education could be a better indicator than is income of some of the social factors that are important for health."
+
+"We should not view individual incomes in isolation from the community in which people are located."
+
+"The fewer goods and services are provided publicly by the community, the more important individual income is for health."
+
+
+6) Measurement of Socioeconomic Status in Health Disparities Research
+
+"Choosing the best variables or approach for measuring SES should be dependent on consideration of the likely causal pathways and relevance of the indicator for the populations and outcomes under study."
+
+SES = socioeconomic status
+
+"Research studies have established that socioeconomic status influences disease incidence, severity and access to health are, there has been relatively less study of the specific manner in which low SES influences receipt of quality care and consequent morbidity and mortality among patients with similar disease characteristics, particularly among those who have gained access to the healthcare system."
+
+
+
+
+
+
+
+
+
+
+
+
+

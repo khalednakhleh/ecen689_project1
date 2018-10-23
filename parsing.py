@@ -7,6 +7,8 @@ Name: khalednakhleh
 
 income file taken from:
     https://www.irs.gov/statistics/soi-tax-stats-county-data-2016
+    Removed Kalawo county from the health dataset since it didn't have
+    an income data values.
 """
 
 import pandas as pd
