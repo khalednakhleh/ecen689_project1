@@ -21,15 +21,46 @@ It is responsible for collecting taxes and administering the Internal Revenue Co
 
 ## Obesity, Diabetes, Adjusted Gross Income (AGI) data projection on the United States' map
 
-1) Diabetes  map in 2008
+* Diabetes  map in 2008
 
-[alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
+![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
 
-2) Diabetes map in 2013
+* Diabetes map in 2013
 
-3) Obesity map in 2008
+![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2013.png "diabetes map 2013")
 
-4) Obesity map in 2013
 
-5) AGI map in 2013
+* Obesity map in 2008
+![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/obesity_2008.png "obesity map 2008")
+
+* Obesity map in 2013
+
+![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/obesity_2013.png "obesity map 2013")
+
+
+* AGI map in 2013
+
+![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/agi.png "agi map 2013")
+
+
+
+--- 
+
+## Packages used
+
+I used [Plotly](https://plot.ly) to generate the United States' maps. Using the offline graph generator, the software generates an HTML file saved locally that displays the maps on your browser. HTML files are available in the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
