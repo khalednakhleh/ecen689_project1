@@ -8,7 +8,7 @@ The project’s objective was to determine if health parameters ( obesity, diabe
 
 ---
 
-#### Datasets used
+## Datasets used
 
 The first dataset is  “Food Environment Atlas”. Food environment factors interact to influence food choices and diet quality. 
 The objectives of the Food Atlas, made available by the U.S. Department of Agriculture, are to assemble statistics on food environment indicators and to provide a spatial overview of access to healthy food. The atlas contains health and well-being indicators such as diabetes and obesity rates.
@@ -19,11 +19,11 @@ It is responsible for collecting taxes and administering the Internal Revenue Co
 
 --- 
 
-#### Obesity, Diabetes, Adjusted Gross Income (AGI) data projection on the United States' map
+## Obesity, Diabetes, Adjusted Gross Income (AGI) data projection on the United States' map
 
 1) Diabetes  map in 2008
 
-![alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
+(https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
 2) Diabetes map in 2013
 
 3) Obesity map in 2008
