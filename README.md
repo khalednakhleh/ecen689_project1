@@ -23,7 +23,8 @@ It is responsible for collecting taxes and administering the Internal Revenue Co
 
 1) Diabetes  map in 2008
 
-(https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
+[alt text](https://github.com/khalednakhleh/ecen689_project1/blob/master/graphs/diabetes_2008.png "diabetes map 2008")
+
 2) Diabetes map in 2013
 
 3) Obesity map in 2008
